@@ -1,0 +1,48 @@
+.show-form-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    cursor: pointer;
+  }
+  
+  .toggle-label {
+    margin-right: 10px;
+  }
+  
+  .toggle-icon {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .task-form {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 20px;
+  }
+  
+  .task-form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .task-form input[type='text'],
+  .task-form input[type='date'],
+  .task-form input[type='time'],
+  .task-form textarea {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .task-form button {
+    padding: 8px 16px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .task-form button:hover {
+    background-color: #45a049;
+  }
+  
